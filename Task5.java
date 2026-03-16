@@ -6,16 +6,16 @@ public class Task5 {
 
         int choice;
         do {
-            System.out.print("Введіть перше число: ");
+            System.out.print("Enter the first number: ");
             double a = scanner.nextDouble();
 
-            System.out.print("Введіть друге число: ");
+            System.out.print("Enter the second number: ");
             double b = scanner.nextDouble();
 
             double result = a * b;
-            System.out.println("Результат множення: " + result);
+            System.out.println("Multiplication result: " + result);
 
-            System.out.print("Для виходу введіть 1, для продовження — інше число: ");
+            System.out.print("Enter 1 to exit, or any other number to continue: ");
             choice = scanner.nextInt();
 
         } while (choice != 1);
